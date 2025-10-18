@@ -1,29 +1,30 @@
-# 🧭 Human Resources Dashboard | Overview
+# 🧭 Human Resources Dashboard | Tableau
 
-This project is an **interactive HR Analytics Dashboard** designed to help organizations monitor and analyze their workforce in real time. It provides insights into employee demographics, hiring trends, terminations, departmental distribution, income levels, and performance metrics.  
+This project is an **interactive Human Resources Analytics Dashboard** built using **Tableau**.  
+It provides a clear and dynamic view of key HR metrics, enabling organizations to make **data-driven workforce decisions**.  
 
 
 ---
 
-## 📊 Features
+## 📊 Key Features
 
-- **Overview Panel**  
-  - Total Active Employees  
-  - Total Hired vs Terminated  
-  - Departmental Headcount Visualization  
-  - Location-based distribution (HQ vs Branch)
+- **📌 Overview Metrics**
+  - Total Active Employees
+  - Total Hires vs Terminations
+  - Departmental headcount distribution
+  - Location-based headcount comparison (HQ vs Branch)
 
-- **Demographics & Education**  
-  - Gender distribution visualization  
-  - Education level and age group segmentation  
-  - Education vs Performance matrix
+- **👥 Demographics**
+  - Gender distribution visualization
+  - Age & education segmentation
+  - Performance by education level
 
-- **Income Insights**  
-  - Average salary by education level  
-  - Gender-based salary comparison  
+- **💰 Income Analysis**
+  - Salary comparison by education level
+  - Gender-based salary gap visualization
   - Age vs Salary scatter plot by job role
 
-- **Departments Covered**  
+- **🏢 Departments Included**
   - Operations  
   - Sales  
   - Customer Service  
@@ -32,44 +33,37 @@ This project is an **interactive HR Analytics Dashboard** designed to help organ
   - Finance  
   - HR
 
-- **Filter Capabilities**  
-  - Gender  
-  - Status (Active / Terminated)  
-  - Hire Date  
+- **🔍 Filter Options**
+  - Gender
+  - Employment Status (Active / Terminated)
+  - Hire Date
   - Location
+
+---
+
+## 🧠 Business Insights Delivered
+
+- Workforce gender ratio (54% male, 46% female)
+- Hiring and termination trends over time
+- Departmental workforce distribution
+- Geographic distribution of employees
+- Salary gaps by education and gender
+- Performance vs education level
+- Age vs salary relationship across roles (e.g., Finance Manager, IT Manager, etc.)
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Power BI / Tableau / Excel** *(Visualization Layer)*  
-- **SQL / Excel / CSV** *(Data Source)*  
-- **DAX / Power Query** *(Data Modeling & Transformation)*  
-
-*(You can adapt these depending on your actual implementation.)*
-
----
-
-## 🧠 Insights Provided
-
-- Workforce gender ratio (54% male, 46% female)
-- Hiring trends over time
-- Departmental hiring and termination comparison
-- Location-wise headcount
-- Salary variation by education and gender
-- Performance distribution across education levels
-- Age vs Salary mapping by role (e.g., Finance Manager, IT Manager, etc.)
+- **Tableau Desktop / Tableau Public** – Data visualization and dashboard creation  
+- **Excel / CSV / Database** – Data source  
+- **Calculated Fields & Filters** – Data modeling within Tableau  
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Power BI Desktop (or your preferred BI tool)
-- Access to the HR dataset (CSV / Excel / Database)
-- Basic knowledge of DAX or calculated fields
-
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/hr-dashboard.git
+- [Tableau Desktop](https://www.tableau.com/products/desktop) or [Tableau Public](https://public.tableau.com/)
+- HR dataset (Excel / CSV / Database)
+- Basic knowledge of Tableau (filters, parameters, calculated fields)
